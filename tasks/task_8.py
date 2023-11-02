@@ -1,8 +1,8 @@
 oklad = 50000  # рублей
 tax_rate = 0.13  # 13% в десятичном виде
 
-tax = oklad*tax_rate  # здесь Ваш код
-salary = oklad-tax  # здесь Ваш код
+tax = oklad * tax_rate  # здесь Ваш код
+salary = oklad - tax  # здесь Ваш код
 
 print(f'Размер зарплаты: {oklad} рублей')  # допишите код
 print(f'Размер подоходного налога: {tax} рублей')  # допишите код
